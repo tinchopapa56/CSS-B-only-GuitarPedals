@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    padding: 0;
+}
+img{
+    border-radius: 5%;
+    width: 10%;
+}
+.full-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Main{
+    display: flex;
+    align-items: center;
+    padding: 2em;
+}
+.Main-img{
+    width:50%;
+}
+.Main-div{
+    margin-left: 5em;
+}
+.Main-div-p{
+    width: 60%;
+}
+/* section 2 // grid*/
+.pedales{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    height: 100vh;
+}
+.grid{
+    margin:0 auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.imgholder{
+    height: 500px;
+    background-color: aquamarine;
+}
+/* I COULD USE SASS FOR DRY */
+            .pedal10{
+                background-image: url("imgs/pedal10.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .pedal11{
+                background-image: url("imgs/pedal11.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .pedal12{
+                background-image: url("imgs/pedal12.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .pedal13{
+                background-image: url("imgs/pedal13.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .pedal14{
+                background-image: url("imgs/pedal14.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .pedal15{
+                background-image: url("imgs/pedal15.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+/* SECTION 4 = SLIDER */
+.slider-container{
+    height: 75vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slider-container-boximg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.slider-faceimg{
+    
+}
